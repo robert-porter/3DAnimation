@@ -1,0 +1,52 @@
+﻿Build started 12/15/2012 9:57:27 AM.
+     1>Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp(2)\CompGraphics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt openglapp\Camera.cpp openglapp\Collision.cpp openglapp\Drawing.cpp openglapp\Entity.cpp openglapp\MD2.cpp openglapp\OpenGLApp.cpp openglapp\SphereTree.cpp openglapp\Terrain.cpp openglapp\Texture.cpp
+         Texture.cpp
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\texture.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Terrain.cpp
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(16): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(17): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(18): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(35): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(36): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(55): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\terrain.cpp(59): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         SphereTree.cpp
+         OpenGLApp.cpp
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\openglapp.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\openglapp.cpp(112): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\openglapp.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\openglapp.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+         MD2.cpp
+         Entity.cpp
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\entity.cpp(64): warning C4244: 'argument' : conversion from 'const double' to 'GLfloat', possible loss of data
+         Drawing.cpp
+         Collision.cpp
+         Camera.cpp
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(15): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(16): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(25): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(66): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(70): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(87): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\rayond\desktop\spywarez\openglapp(2)\openglapp\camera.cpp(91): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\CompGraphics.exe" /INCREMENTAL /NOLOGO glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\CompGraphics.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\CompGraphics.lib" /MACHINE:X86 /SAFESEH Debug\Camera.obj
+         Debug\Collision.obj
+         Debug\Drawing.obj
+         Debug\Entity.obj
+         Debug\MD2.obj
+         Debug\OpenGLApp.obj
+         Debug\SphereTree.obj
+         Debug\Terrain.obj
+         Debug\Texture.obj
+     1>LINK : fatal error LNK1104: cannot open file 'glut32.lib'
+     1>Done Building Project "C:\Users\rayond\Desktop\Spywarez\OpenGLApp(2)\CompGraphics.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.84
